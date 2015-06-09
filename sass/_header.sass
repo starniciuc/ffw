@@ -1,0 +1,180 @@
+header
+  background-color: #ffffff
+  padding: 23px 0
+  font-family: 'Opens Sans', sans-serif
+
+  .logo
+    width: 335px
+    height: auto
+
+  .search-block
+    padding-right: 58px
+    position: relative
+
+    .input-section
+      background-color: #f7f7f7
+      +border-radius(3px)
+      border: 1px solid #e0e0e0
+      padding: 10px
+
+      div
+        margin: 0px
+
+      .dropdown-btn
+        +border-radius(4px 0 0 4px)
+        margin: 0
+        box-shadow: none
+        background: none
+        border: 1px solid #e0e0e0
+        display: block
+        border-right: 0
+        height: 42px
+        color: #a3adb7
+        font-size: 13px
+        font-weight: 400
+        background-color: #ffffff
+        width: 100%
+        line-height: 42px
+        padding-left: 10px
+
+        &:after
+          content: "\f078"
+          font-family: 'FontAwesome'
+          display: inline-block
+          position: absolute
+          top: 0px
+          right: 7px
+          font-size: 14px
+          color: #677786
+
+      .f-dropdown
+        background-color: #fdfcfc
+        top: 42px !important
+        margin: 0
+        left: 3px !important
+        border: 1px solid #e0e0e0
+        border-top: 0px
+        width: 98%
+        border-radius: 0 0 4px 4px
+
+        li
+          a
+            font-size: 14px
+            color: #2c3e50
+
+        &:before, &:after
+          display: none
+
+      .inner-input
+        input[type='text']
+          width: 100%
+          margin: 0
+          display: block
+          border: 1px solid #e0e0e0
+          height: 42px
+          font-size: 13px
+          font-weight: 400
+          color: #a3adb7
+          box-shadow: none
+          +border-radius(0 4px 4px 0)
+          +input-placeholder
+            color: #a3adb7
+            +opacity(1)
+
+        &:after
+          content: "\f0b1"
+          font-family: 'FontAwesome'
+          display: inline-block
+          position: absolute
+          top: 0px
+          right: 10px
+          font-size: 16px
+          color: #677786
+          line-height: 42px
+
+        &.blog
+          &:after
+            background: url("../img/blog.svg") no-repeat 0 0
+            width: 17px
+            height: 19px
+            content: " "
+            background-size: 100% auto
+            fill: #677786
+            top: 12px
+
+    .btn-go
+      font-size: 18px
+      font-weight: 600
+      padding: 10px
+      background-color: #26a6d1
+      position: absolute
+      right: 0
+      top: 9px
+      font-family: 'Opens Sans', sans-serif
+
+nav.main-nav
+  background-color: #f7f7f7
+  padding-top: 55px
+  padding-bottom: 10px
+  border-top-right-radius: 100% 15px
+  border-top-left-radius: 100% 15px
+  overflow: hidden
+  +box-shadow(0 4px 6px 0 rgba(0, 0, 0, 0.04) inset)
+
+  .first-menu
+    padding: 0
+    margin: 0
+    list-style: none
+    display: inline-block
+    border-bottom: 1px solid #e0e0e0
+
+    li
+      display: inline-block
+      margin: 15px 45px
+
+      &:last-child
+        margin-right: 0
+
+      &:first-child
+        margin-left: 0
+
+      a
+        color: #a3adb7
+        font-size: 18px
+        text-decoration: none
+        padding: 8px 0px
+        display: block
+        +border-radius(3px)
+        +transition(all 0.35s ease-in-out)
+
+        &:hover
+          color: #26a6d1
+
+      &.active
+        margin: 15px
+        a
+          border: 1px solid #e0e0e0
+          background-color: #ffffff
+          color: #26a6d1
+          padding: 8px 30px
+
+  .secod-menu
+    padding: 0px
+    margin: 0px
+    list-style: none
+
+    li
+      display: inline-block
+      margin: 20px
+
+      a
+        color: #a3adb7
+        font-size: 14px
+        text-decoration: none
+
+        &:hover
+          color: #26a6d1
+
+      &.active
+        a
+          color: #26a6d1

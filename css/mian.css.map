@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,IAAI,GACF,gBAAgB,EAAE,OAAO;;AAE3B,KAAK,GACH,KAAK,EAAE,OAAO;;AAEhB,OAAO,GACL,KAAK,EAAE,IAAI;;AAEb,GAAG,GACD,KAAK,EAAE,IAAI;;AAEb,MAAM,GACJ,KAAK,EAAE,OAAO;;AAEhB,IAAI,GACF,gBAAgB,EAAE,OAAO",
-"sources": ["../sass/mian.sass"],
-"names": [],
-"file": "mian.css"
-}
